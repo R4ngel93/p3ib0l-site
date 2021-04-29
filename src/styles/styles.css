@@ -1,0 +1,76 @@
+/* Global variables */
+:root{
+    --dark-bg-color: #282c34;
+    /* --navbar-bg-color: #383c46; */
+    --blue-primary: #2196f3;
+    --green-success: #69f0ae;
+    --purple: #a74987;
+    --cherry: #f14a82;
+    --orange: #eeb53a;
+    --golden: #d8bc1f;
+  }
+  
+  /* Background */
+  *{
+    background-color: var(--dark-bg-color);
+  }
+  
+  
+  /* App */
+  .App{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+
+    width: 50vw;
+  }
+
+  /* Responsive */
+  @media only screen and (max-width: 640px) {
+    .App {
+      font-size: 0.5em;
+      width: 90vw;
+    }
+  }
+
+  /* Level 0 */
+  .level_00{
+    color: var(--orange);
+    font-size: larger;
+    /* font-weight: bold; */
+  }
+
+  .tab_00{
+    margin-left: 0.25em;
+  }
+
+  /* Level 1 */
+  .level_01{
+    color: var(--blue-primary);
+  }
+
+  .tab_01{
+    margin-left: 1.5em;
+  }
+
+  /* Level 2 */
+  .level_02{
+    color: var(--cherry);
+  }
+
+  .tab_02{
+    margin-left: 3em;
+  }
+
+  /* Level 3 */
+  .level_03{
+    color:var(--green-success);
+  }
+
+  .tab_03{
+    margin-left: 1.5em;
+  }
+
+  /* Symbols */
+  .symbol{
+    color:var(--golden);
+  }
